@@ -1,0 +1,9 @@
+{
+  "name": "dist/devdocs",
+  "pkg": {
+    "bin": "src/index.js",
+    "scripts": "src/index.js",
+    "targets": ["node18-macos-x64"],
+    "assets": ["build/**/*", "node_modules/libwebview-nodejs/**/*"]
+  }
+}

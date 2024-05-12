@@ -1,0 +1,20 @@
+{
+  "name": "devdocs",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "caleb.peterson@cubicle6.com",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "node src/index.js",
+    "clean": "rm -rf dist/*",
+    "build": "pkg --config pkg.config.json src/index.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "webview-nodejs": "^0.4.3"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
